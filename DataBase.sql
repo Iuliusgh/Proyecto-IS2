@@ -13,3 +13,6 @@ MESSAGE varchar(1000),
 MOMENT DATE
 
 );
+
+Insert into users (NICKNAME,PSSWORD) Values ('Alfonso', '1234');
+Insert into users (NICKNAME,PSSWORD) Values ('francisca', '4321');
