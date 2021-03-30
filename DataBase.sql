@@ -14,5 +14,20 @@ MOMENT DATE
 
 );
 
+
+
+Create table Images (
+
+IMAGE VARBINARY(10000),
+MOMENT DATE,
+NICKNAME Varchar(100)
+
+
+);
+
+--Examples
+
 Insert into users (NICKNAME,PSSWORD) Values ('Alfonso', '1234');
 Insert into users (NICKNAME,PSSWORD) Values ('francisca', '4321');
+
+
