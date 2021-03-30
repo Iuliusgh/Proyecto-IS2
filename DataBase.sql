@@ -14,7 +14,12 @@ MOMENT DATE
 
 );
 
-
+create table profile(
+nombre varchar(100),
+apellido1 varchar(100),
+apellido2 varchar(100),
+edad int,
+sexo char(1));
 
 Create table Images (
 
