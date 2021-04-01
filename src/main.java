@@ -5,7 +5,7 @@ public class main {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static void main(String[] args) {//dascvczxc zxc
+	public static void main(String[] args) {
 		int i;
 
 	}
