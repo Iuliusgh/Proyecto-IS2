@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class InsertDB {
     private Connection connect() {
-        String url = "jdbc:oracle:thin:@localhost:1521:xe"; // Aquí no se que poner.
+        String url = "jdbc:oracle:thin:@localhost:1521:xe"; // Aquí no se que poner (dirección para conectarse a la base de datos)
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
