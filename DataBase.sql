@@ -27,7 +27,24 @@ IMAGE BLOB(10000),
 MOMENT DATE,
 NICKNAME Varchar(100)
 
-
+);
+          
+Create table recorrido (
+  latitud_origen binary_double,
+  longitud_origen binary_double,
+  latitud_destino binary_double,
+  longitud_destino binary_double,
+  tiempoDeInicio timestamp,
+  tiempoFinal timestamp
+ 
+);
+          
+            
+Create table actualizacion (
+  wayPoints binary_double
+  latitud binary_double,
+  longitud binary_double
+  
 );
 
 --Examples
