@@ -30,7 +30,7 @@ public class CommandParse extends Command {
 		// TODO Auto-generated method stub
 		try {
 		SQL app = new SQL();
-		app.insert(user, pas);
+		app.uso(user, pas);
 		return true;
 		}
 		catch(Exception ex) {
